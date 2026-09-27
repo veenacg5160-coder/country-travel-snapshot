@@ -1,0 +1,24 @@
+Obstacle Log
+
+1. Demo API Key Returned Canada
+
+Problem: When testing India, the API returned Canada instead.
+
+Cause: The 'rc_live_demo' API key intentionally returns a sample Canada response.
+
+Solution: Obtained and configured a real REST Countries API key using the 'REST_COUNTRIES_API_KEY' environment variable.
+
+
+2. Neighbours Were Displayed as Country Codes
+
+Problem: Neighbours were initially displayed as codes such as 'BGD, BTN, CHN, NPL'.
+
+Solution: Added additional API lookups to convert the country codes into full country names such as Bangladesh, Bhutan, China, and Nepal.
+
+
+3. Different JSON Data Types
+
+Problem: Currency and language information were returned as lists of objects rather than simple values.
+
+Solution: Updated the JSON parsing logic to iterate through the lists and extract the required names and codes.
+

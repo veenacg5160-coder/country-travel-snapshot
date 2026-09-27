@@ -1,0 +1,36 @@
+SAMPLE OUTPUT 01:-
+
+Enter country name: India
+
+========== COUNTRY TRAVEL SNAPSHOT ==========
+Country     : India
+Capital     : New Delhi
+Currency    : Indian rupee (INR)
+Population  : 1,429,404,000
+Languages   : English, Hindi, Tamil
+Region      : Asia
+Neighbours  : Bangladesh, Bhutan, Myanmar, China, Nepal, Pakistan
+=============================================
+
+
+SAMPLE OUTPUT 02:-
+
+Enter country name: iceland
+
+========== COUNTRY TRAVEL SNAPSHOT ==========
+Country     : Iceland
+Capital     : Reykjavik
+Currency    : Icelandic króna (ISK)
+Population  : 396,500
+Languages   : Icelandic
+Region      : Europe
+Neighbours  : None
+=============================================
+
+
+
+SAMPLE OUTPUT 03:-
+
+Enter country name: wakanda
+
+Error: Country 'wakanda' was not found.
