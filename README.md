@@ -35,3 +35,4 @@ country-travel-snapshot/
 ├── sample_outputs.txt
 ├── .gitignore
 └── README.md
+└── user_guide.md
